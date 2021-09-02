@@ -1,0 +1,122 @@
+body{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    background-color: lightpink;
+    
+}
+#container, #container2{
+    width: 40vw;
+    height: auto;
+    background-color: #999999;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 4px 6px 6px #fff;
+}
+.progress{
+    width: 200px;
+    background-color: #ddd;
+    border-radius: 15px;
+    padding: 20px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+.myBar{
+    height: 30px;
+    width: 200px;
+    border-radius: 15px;
+    background-color: #f15025;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    margin: 10px;
+  }
+
+  #myInput:hover{
+    transform: scale(1.05);
+    transition: transform 0.5s;
+}
+
+#myInput{
+    font-family: 'Montserrat', sans-serif;
+    margin: 35px;
+    border:1px solid #81b214;
+    border-radius: 10px;
+    height: 5vh;
+    width: 15vw;
+    opacity: .8;
+    background-color: #f8f5f1;
+    transform: scale(1);
+    transition: transform 0.5s;
+}
+#start,#stop,#restart,#start2,#stop2,#restart2{
+    border-style: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: medium;
+    line-height: 13px;
+    border-radius: 8px;
+    padding: 8px 12px;
+    height: 36px;
+    background-color: #81b214;
+    margin: 5px;
+    transform: scale(1);
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+#restart:hover{
+    transform: scale(1.2);
+    transition: transform 0.5s;
+}
+#start:hover{
+    transform: scale(1.2);
+    transition: transform 0.5s;
+}
+#stop:hover{
+    transform: scale(1.2);
+    transition: transform 0.5s;
+}
+
+#btn{
+border-style: none;
+color: aliceblue;
+font-weight: bold;
+font-size: medium;
+line-height: 13px;
+border-radius: 8px;
+padding: 10px 20px;
+height: 36px;
+background-color: #81b214;
+margin: 5px;
+transform: scale(1);
+transition: transform 0.5s;
+cursor: pointer;
+}
+
+#btn:hover{
+    transform: scale(1.2);
+    transition: transform 0.5s;
+}
+
+.progress2{
+    width: 200px;
+    background-color: #ddd;
+    border-radius: 15px;
+    padding: 20px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+
+.myBar2{
+    height: 30px;
+    width: 200px;
+    border-radius: 15px;
+    background-color: green;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    margin: 10px;
+}
